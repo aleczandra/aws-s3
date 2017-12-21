@@ -12,6 +12,12 @@ To let the project run is simple, but there are a few prerequisites:
 5. Play a bit with the permissions related to that bucket.
 
 On the Java project side, I just used Spring Boot to generate the project. If using Spring Initializr, select the Cloud AWS dependency that will come with the Amazon SDK to access the AWS resources. (Amazon S3 for example).
-The rest is Java coding: 
+The rest is Java coding:       
+      
       - creating an AmazonS3 client used to connect to AWS (use the access key and secret key that you could download when creating the user using IAM service from AWS
+      
       - perform actions using this client.
+      
+
+
+Super excited hearing some other tutorials. Sorry for not formatting this more nicely.
